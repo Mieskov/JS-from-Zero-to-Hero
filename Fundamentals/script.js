@@ -29,4 +29,17 @@ console.log(typeof javascriptIsFun);
 
 javascriptIsFun = "YES!";
 console.log(typeof javascriptIsFun);
+
+let age = 31;
+age = 30;
+
+const birthYear = 1991;
+//birthYear = 1900;
+//const job;
+
+var job = "programmer";
+job = "teacher";
+
+lastName = "Mieskov";
+console.log(lastName);
 */
