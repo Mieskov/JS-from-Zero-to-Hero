@@ -1,5 +1,5 @@
 const myCountry = "Ukraine";
-let myContinent = "Eurepe";
+const myContinent = "Eurepe";
 let population = 44.13;
 console.log(myCountry);
 console.log(population);

@@ -43,3 +43,14 @@ job = "teacher";
 lastName = "Mieskov";
 console.log(lastName);
 */
+const now = 2037;
+
+const ageJack = now - 1988;
+const ageRuslana = now - 1985;
+
+console.log(ageJack, ageRuslana);
+console.log(ageJack * 2, ageJack / 10, 2 ** 3);
+
+const firstName = "Jack";
+const lastName = "Mieskov";
+console.log(firstName + lastName);
