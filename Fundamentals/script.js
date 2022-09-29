@@ -69,3 +69,11 @@ console.log(ageJack < ageRuslana); // >, <, >=, <=
 console.log(ageRuslana <= 18);
 const isFullAge = ageJack >= 18;
 console.log(now - 1988 > now - 1985);*/
+
+const now = 2037;
+
+const ageJack = now - 1988;
+const ageRuslana = now - 1985;
+
+const averageAge = (ageJack + ageRuslana) / 2;
+console.log(ageJack, ageRuslana, averageAge);
