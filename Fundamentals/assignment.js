@@ -18,4 +18,9 @@ population++;
 console.log(population);
 console.log(population > 6);
 console.log(population < 33);
+
+const description =
+  "Portugal is in Europe, and its 11 million people speak portuguese";
+const description1 = `${myCountry} is in ${myContinent}, and it is ${population} million people speak ${language}.`;
+console.log(description1);
 */

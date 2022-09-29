@@ -83,7 +83,7 @@ const heightMark = 1.69;
 
 const massJohn = 92;
 const heightJohn = 1.95;
-*/
+
 const massMark = 95;
 const heightMark = 1.88;
 
@@ -99,3 +99,14 @@ const bodyMassIndexJohn2 = massJohn / (heightJohn * heightJohn);
 
 const markHigherBMI = bodyMassIndexMark1 > bodyMassIndexJohn1;
 console.log(bodyMassIndexMark1, bodyMassIndexJohn1, markHigherBMI);
+
+const firstName = "Jack";
+const birthYear = 1988;
+const currentYear = 2037;
+const job = "developer";
+
+const jack = `I'm ${firstName}, a ${
+  currentYear - birthYear
+} years old ${job}! `;
+console.log(jack);
+*/
