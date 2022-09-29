@@ -18,7 +18,4 @@ population++;
 console.log(population);
 console.log(population > 6);
 console.log(population < 33);
-
-const discription =
-  "Portugal is in Europe, and its 11 million people speak portuguese";
 */
