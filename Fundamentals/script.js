@@ -42,7 +42,9 @@ job = "teacher";
 
 lastName = "Mieskov";
 console.log(lastName);
-*/
+
+
+// Math operators
 const now = 2037;
 
 const ageJack = now - 1988;
@@ -53,4 +55,17 @@ console.log(ageJack * 2, ageJack / 10, 2 ** 3);
 
 const firstName = "Jack";
 const lastName = "Mieskov";
-console.log(firstName + lastName);
+console.log(firstName + " " + lastName);
+// Assigment operators
+let x = 10 + 5; // x= 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 10 = 100
+x++; // x = x + 1
+x--; // x= x - 1
+console.log(x);
+
+// Comparison operators
+console.log(ageJack < ageRuslana); // >, <, >=, <=
+console.log(ageRuslana <= 18);
+const isFullAge = ageJack >= 18;
+console.log(now - 1988 > now - 1985);*/
