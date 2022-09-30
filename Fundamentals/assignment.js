@@ -1,6 +1,6 @@
 /*const myCountry = "Ukraine";
 const myContinent = "Eurepe";
-let population = 44.13;
+let population = 45;
 console.log(myCountry);
 console.log(population);
 console.log(myContinent);
@@ -23,4 +23,12 @@ const description =
   "Portugal is in Europe, and its 11 million people speak portuguese";
 const description1 = `${myCountry} is in ${myContinent}, and it is ${population} million people speak ${language}.`;
 console.log(description1);
+
+let average;
+if (population > 33) {
+  average = `${myCountry}'s population is above average`;
+} else {
+  average = `${myCountry}'s population is 20 million below average`;
+}
+console.log(average);
 */
