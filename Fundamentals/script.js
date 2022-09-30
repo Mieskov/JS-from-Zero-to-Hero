@@ -110,3 +110,9 @@ const jack = `I'm ${firstName}, a ${
 } years old ${job}! `;
 console.log(jack);
 */
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  `Sarah can start driving license `;
+}
