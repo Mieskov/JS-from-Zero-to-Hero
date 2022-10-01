@@ -115,7 +115,7 @@ const heightMark = 1.88;
 const massJohn = 85;
 const heightJohn = 1.76;
 */
-
+/*
 const massMark = 78;
 const heightMark = 1.69;
 
@@ -139,3 +139,23 @@ if (bodyMassIndexMark1 > bodyMassIndexJohn1) {
     `John's BMI (${bodyMassIndexJohn1}) is higher than Mark's(${bodyMassIndexMark1})!`
   );
 }
+
+//type conversion
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+
+console.log(Number("John"));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//type coercion
+console.log("I am " + 23 + " years old."); // to string
+console.log("23" - "10" - 3); // to number
+console.log("23" / "2"); // to number
+
+let n = "1" + 1; //11 string
+n = n - 1; // 10 number
+console.log(n);
+
+*/
