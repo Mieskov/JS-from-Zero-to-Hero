@@ -160,7 +160,7 @@ console.log(n);
 
 */
 // 5 folsy values: 0, '' ,undefined, null, NaN
-
+/*
 const money = 100;
 if (money) {
   console.log("Don't spend it all ;)");
@@ -185,3 +185,11 @@ else if (favourite === 9) console.log("9 is also a cool number");
 else {
   console.log("Number is not 23 or 7 or 9");
 }
+
+if (favourite !== 23) console.log("Why not 23?");
+*/
+
+const numNeigbours = Number(
+  prompt("How many neighbour countries does your country have?")
+);
+if (numNeigbours == 1) console.log("Only 1 border!");
