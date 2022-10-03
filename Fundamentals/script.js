@@ -188,8 +188,3 @@ else {
 
 if (favourite !== 23) console.log("Why not 23?");
 */
-
-const numNeigbours = Number(
-  prompt("How many neighbour countries does your country have?")
-);
-if (numNeigbours == 1) console.log("Only 1 border!");
