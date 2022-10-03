@@ -1,4 +1,4 @@
-const myCountry = "Ukraine";
+/*const myCountry = "Ukraine";
 const myContinent = "Eurepe";
 let population = 45;
 console.log(myCountry);
@@ -40,3 +40,4 @@ else if (numNeigbours > 1) console.log("More than 1 border");
 else {
   console.log("No borders");
 }
+*/
