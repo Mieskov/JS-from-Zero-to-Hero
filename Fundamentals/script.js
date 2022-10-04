@@ -160,7 +160,7 @@ console.log(n);
 
 */
 // 5 folsy values: 0, '' ,undefined, null, NaN
-/*
+
 const money = 100;
 if (money) {
   console.log("Don't spend it all ;)");
@@ -187,4 +187,3 @@ else {
 }
 
 if (favourite !== 23) console.log("Why not 23?");
-*/
