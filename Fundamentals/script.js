@@ -188,7 +188,7 @@ else {
 
 if (favourite !== 23) console.log("Why not 23?");
 */
-
+/*
 const hasDriverLicense = true;
 const hasGoodVision = true;
 
@@ -204,3 +204,51 @@ if (hasDriverLicense && hasGoodVision && !isTired) {
 } else {
   console.log("Someone else should drive...");
 }
+*/
+/*
+const averageScoreDolphins = (96 + 108 + 164) / 3;
+const averageScoreKoalas = (96 + 108 + 164) / 3;
+
+//console.log(averageScoreDolphins, averageScoreKoalas);
+
+if (averageScoreDolphins > averageScoreKoalas) console.log("Dolphins win!");
+else if (averageScoreDolphins < averageScoreKoalas) {
+  console.log("Koalas win!");
+} else if (averageScoreDolphins === averageScoreKoalas)
+  console.log("friendship win!");
+*/
+
+const averageScoreDolphins = (109 + 95 + 10) / 3;
+const averageScoreKoalas = (109 + 95 + 10) / 3;
+// проще не бывает))
+console.log(averageScoreDolphins, averageScoreKoalas);
+if (averageScoreDolphins > averageScoreKoalas && averageScoreDolphins >= 100)
+  console.log("Dolphins win!");
+else if (averageScoreDolphins < averageScoreKoalas && averageScoreKoalas >= 100)
+  console.log("Koalas win!");
+else if (
+  averageScoreDolphins === averageScoreKoalas &&
+  averageScoreDolphins >= 100 &&
+  averageScoreKoalas >= 100
+)
+  console.log("Both WIN!!");
+else {
+  console.log("No team wins the trophy;(");
+}
+/// ////// СЛОЖНЫЙ ПУТЬ))
+// const minimumScoreD = averageScoreDolphins >= 100;
+// const minimumScoreK = averageScoreKoalas >= 100;
+// const dolphinWin = averageScoreDolphins > averageScoreKoalas;
+// const koalasWin = averageScoreDolphins < averageScoreKoalas;
+// const bothWin = dolphinWin === koalasWin;
+
+//console.log(dolphinWin, koalasWin);
+//console.log(dolphinWin);
+//console.log(minimumScore);
+
+// else if (koalasWin && minimumScoreK) console.log("Koalas win!");
+// //else if (!minimumScoreK && !minimumScoreD) console.log("both lose!!!");
+// else if (bothWin && minimumScoreD && minimumScoreK) console.log("Both WIN!!");
+// else {
+//   console.log("No team wins the trophy;(");
+// }
