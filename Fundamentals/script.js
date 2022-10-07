@@ -253,9 +253,9 @@ else {
   console.log("No team wins the trophy;(");
 }
 */
-
-const day = "thursday";
 /*
+const day = "monday";
+
 switch (day) {
   case "monday": //day==='monday'
     console.log("Plan course structurre");
@@ -272,13 +272,13 @@ switch (day) {
     console.log("Record videos");
     break;
   case "saturday":
-  case "sanday":
-    console.log("Enjoy the weekend :D");
+  case "sunday":
+    console.log("Enjoy the weekend");
     break;
   default:
     console.log("Not a valid day!");
 }
-*/
+
 if (day === "monday") {
   console.log("Plan course structurre");
   console.log("Go to coding metup");
@@ -286,4 +286,11 @@ if (day === "monday") {
   console.log("Prepare theory videos");
 } else if (day === "wednesday" || day === "thursday") {
   console.log("Wright code examples");
+} else if (day === "friday") {
+  console.log("Record videos");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("Enjoy the weekend");
+} else {
+  console.log("Not a valid day!");
 }
+*/
