@@ -217,7 +217,7 @@ else if (averageScoreDolphins < averageScoreKoalas) {
 } else if (averageScoreDolphins === averageScoreKoalas)
   console.log("friendship win!");
 */
-
+/*
 const averageScoreDolphins = (109 + 95 + 10) / 3;
 const averageScoreKoalas = (109 + 95 + 10) / 3;
 // проще не бывает))
@@ -235,20 +235,21 @@ else if (
 else {
   console.log("No team wins the trophy;(");
 }
-/// ////// СЛОЖНЫЙ ПУТЬ))
-// const minimumScoreD = averageScoreDolphins >= 100;
-// const minimumScoreK = averageScoreKoalas >= 100;
-// const dolphinWin = averageScoreDolphins > averageScoreKoalas;
-// const koalasWin = averageScoreDolphins < averageScoreKoalas;
-// const bothWin = dolphinWin === koalasWin;
+/ ////// СЛОЖНЫЙ ПУТЬ))
+const minimumScoreD = averageScoreDolphins >= 100;
+const minimumScoreK = averageScoreKoalas >= 100;
+const dolphinWin = averageScoreDolphins > averageScoreKoalas;
+const koalasWin = averageScoreDolphins < averageScoreKoalas;
+const bothWin = dolphinWin === koalasWin;
 
-//console.log(dolphinWin, koalasWin);
-//console.log(dolphinWin);
-//console.log(minimumScore);
+console.log(dolphinWin, koalasWin);
+console.log(dolphinWin);
+console.log(minimumScore);
 
-// else if (koalasWin && minimumScoreK) console.log("Koalas win!");
-// //else if (!minimumScoreK && !minimumScoreD) console.log("both lose!!!");
-// else if (bothWin && minimumScoreD && minimumScoreK) console.log("Both WIN!!");
-// else {
-//   console.log("No team wins the trophy;(");
-// }
+else if (koalasWin && minimumScoreK) console.log("Koalas win!");
+//else if (!minimumScoreK && !minimumScoreD) console.log("both lose!!!");
+else if (bothWin && minimumScoreD && minimumScoreK) console.log("Both WIN!!");
+else {
+  console.log("No team wins the trophy;(");
+}
+*/
