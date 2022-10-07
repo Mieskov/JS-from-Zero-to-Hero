@@ -1,3 +1,4 @@
+/*
 const myCountry = "Ukraine";
 const myContinent = "Eurepe";
 let population = 45;
@@ -8,17 +9,19 @@ let population = 45;
 
 const isIsland = false;
 let language;
-language = false; //"ukrainian";
+language = "ukrainian";
 
-if (population < 50 && !isIsland && language)
+if (population < 50 && !isIsland && language === "english")
   console.log(`You should live in ${myCountry}! `);
-else if (population < 50 && !isIsland && !language)
-  console.log(`${myCountry} does not meet your criteria ;(`);
+//if (population < 50 && !isIsland && language === "ukrainian")
+else console.log(`${myCountry} does not meet your criteria ;(`);
 
 // console.log(typeof isIsland);
 // console.log(typeof population);
 // console.log(typeof myCountry);
 // console.log(language);
+*/
+
 /*
 console.log(population / 2);
 population++;

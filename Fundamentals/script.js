@@ -253,3 +253,37 @@ else {
   console.log("No team wins the trophy;(");
 }
 */
+
+const day = "thursday";
+/*
+switch (day) {
+  case "monday": //day==='monday'
+    console.log("Plan course structurre");
+    console.log("Go to coding mmetup");
+    break;
+  case "tuesday":
+    console.log("Prepare theory videos");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("Wright code examples");
+    break;
+  case "friday":
+    console.log("Record videos");
+    break;
+  case "saturday":
+  case "sanday":
+    console.log("Enjoy the weekend :D");
+    break;
+  default:
+    console.log("Not a valid day!");
+}
+*/
+if (day === "monday") {
+  console.log("Plan course structurre");
+  console.log("Go to coding metup");
+} else if (day === "tuesday") {
+  console.log("Prepare theory videos");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("Wright code examples");
+}
