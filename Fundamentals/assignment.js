@@ -51,7 +51,7 @@ else {
   console.log("No borders");
 }
 */
-
+/*
 const language = "hindi";
 switch (language) {
   case "chinese":
@@ -73,3 +73,4 @@ switch (language) {
   default:
     console.log("Great language too :D");
 }
+*/
