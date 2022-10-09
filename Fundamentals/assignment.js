@@ -69,7 +69,7 @@ switch (language) {
   default:
     console.log("Great language too :D");
 }
-*/
+
 const myCountry = "Ukraine";
 let population = 130;
 const average = population > 33 ? ` above ` : `below `;
@@ -78,3 +78,4 @@ console.log(
     population > 33 ? ` above ` : `below `
   } average!`
 );
+*/
