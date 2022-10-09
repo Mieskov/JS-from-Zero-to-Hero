@@ -1,5 +1,4 @@
-/*
-const myCountry = "Ukraine";
+/*const myCountry = "Ukraine";
 const myContinent = "Eurepe";
 let population = 45;
 // console.log(myCountry);
@@ -20,9 +19,7 @@ else console.log(`${myCountry} does not meet your criteria ;(`);
 // console.log(typeof population);
 // console.log(typeof myCountry);
 // console.log(language);
-*/
 
-/*
 console.log(population / 2);
 population++;
 console.log(population);
@@ -50,8 +47,7 @@ else if (numNeigbours > 1) console.log("More than 1 border");
 else {
   console.log("No borders");
 }
-*/
-/*
+
 const language = "hindi";
 switch (language) {
   case "chinese":
@@ -74,3 +70,11 @@ switch (language) {
     console.log("Great language too :D");
 }
 */
+const myCountry = "Ukraine";
+let population = 130;
+const average = population > 33 ? ` above ` : `below `;
+console.log(
+  `${myCountry}'s population is ${
+    population > 33 ? ` above ` : `below `
+  } average!`
+);
