@@ -1,4 +1,4 @@
-/*const myCountry = "Ukraine";
+const myCountry = "Ukraine";
 const myContinent = "Eurepe";
 let population = 45;
 // console.log(myCountry);
@@ -78,4 +78,3 @@ console.log(
     population > 33 ? ` above ` : `below `
   } average!`
 );
-*/
