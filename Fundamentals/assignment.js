@@ -78,17 +78,40 @@ console.log(
     population > 33 ? ` above ` : `below `
   } average!`
 );
-
+*/
+/*
 function describeCountry(country, population, capitalCity) {
-  const descrip = `${country} has ${population} million people and its 
+  return `${country} has ${population} million people and its 
 capital city is ${capitalCity}.`;
-
-  return descrip;
 }
 const Ukraine = describeCountry("Ukraine", 42, "Kyiv");
-console.log(Ukraine);
+
 const Finland = describeCountry("Finland", 6, "Helsinki");
-console.log(Finland);
+
 const Poland = describeCountry("Poland", 38, "Warsaw");
-console.log(Poland);
+console.log(Poland, Ukraine, Finland);
+
+//Function declaration
+
+function percentageOfWorld1(population, country) {
+  return `${country} has ${population} million people, so it's about ${
+    (population / 7900) * 100
+  }% of the world population.`;
+}
+let descrUkraine = percentageOfWorld1(42, "Ukraine");
+let descrFinland = percentageOfWorld1(6, "Finland");
+let descrPoland = percentageOfWorld1(38, "Poland");
+
+console.log(descrUkraine, descrFinland, descrPoland);
 */
+//Function expression
+const percentageOfWorld2 = function (population, country) {
+  return `${country} has ${population} million people, so it's about ${
+    (population / 7900) * 100
+  }% of the world population.`;
+};
+
+let descrUkraine = percentageOfWorld2(42, "Ukraine");
+let descrFinland = percentageOfWorld2(6, "Finland");
+let descrPoland = percentageOfWorld2(38, "Poland");
+console.log(descrFinland, descrPoland, descrUkraine);
