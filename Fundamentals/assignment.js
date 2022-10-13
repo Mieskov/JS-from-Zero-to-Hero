@@ -79,3 +79,15 @@ console.log(
   } average!`
 );
 */
+function describeCountry(country, population, capitalCity) {
+  const descrip = `${country} has ${population} million people and its 
+capital city is ${capitalCity}.`;
+
+  return descrip;
+}
+const Ukraine = describeCountry("Ukraine", 42, "Kyiv");
+console.log(Ukraine);
+const Finland = describeCountry("Finland", 6, "Helsinki");
+console.log(Finland);
+const Poland = describeCountry("Poland", 38, "Warsaw");
+console.log(Poland);
