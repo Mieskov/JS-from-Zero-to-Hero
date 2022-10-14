@@ -130,9 +130,11 @@ function percentageOfWorld1(population) {
 }
 
 function describePopulation(country, population) {
-  const percentsgeOfUkraine = percentageOfWorld1(population);
-
-  return `${country} has ${population} million people, 
-which is about ${percentsgeOfUkraine}% of the world.`;
+  const percentage = percentageOfWorld1(population);
+  const description = `${country} has ${population} million people, which is about ${percentage}% of the world.`;
+  console.log(description);
 }
-console.log(describePopulation("Ukraine", 2579));
+
+describePopulation("Ukraine", 2579);
+describePopulation("USA", 4587);
+describePopulation("Finland", 2358);
