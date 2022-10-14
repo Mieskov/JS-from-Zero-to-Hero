@@ -104,6 +104,7 @@ let descrPoland = percentageOfWorld1(38, "Poland");
 
 console.log(descrUkraine, descrFinland, descrPoland);
 */
+/*
 //Function expression
 const percentageOfWorld2 = function (population, country) {
   return `${country} has ${population} million people, so it's about ${
@@ -111,7 +112,15 @@ const percentageOfWorld2 = function (population, country) {
   }% of the world population.`;
 };
 
-let descrUkraine = percentageOfWorld2(42, "Ukraine");
-let descrFinland = percentageOfWorld2(6, "Finland");
-let descrPoland = percentageOfWorld2(38, "Poland");
+let descrUkraine = percentageOfWorld2(1201, "Ukraine");
+let descrFinland = percentageOfWorld2(456, "Finland");
+let descrPoland = percentageOfWorld2(3884, "Poland");
 console.log(descrFinland, descrPoland, descrUkraine);
+*/
+// arrow function
+
+const percentageOfWorld3 = (population) => (population / 7900) * 100;
+const percentsgeOfUkraine = percentageOfWorld3(1558);
+const percentsgeOfUSA = percentageOfWorld3(547);
+console.log(percentsgeOfUkraine, percentsgeOfUSA);
+console.log(percentageOfWorld3(457));
