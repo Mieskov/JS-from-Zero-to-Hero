@@ -118,9 +118,21 @@ let descrPoland = percentageOfWorld2(3884, "Poland");
 console.log(descrFinland, descrPoland, descrUkraine);
 */
 // arrow function
-
+/*
 const percentageOfWorld3 = (population) => (population / 7900) * 100;
 const percentsgeOfUkraine = percentageOfWorld3(1558);
 const percentsgeOfUSA = percentageOfWorld3(547);
 console.log(percentsgeOfUkraine, percentsgeOfUSA);
 console.log(percentageOfWorld3(457));
+*/
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+function describePopulation(country, population) {
+  const percentsgeOfUkraine = percentageOfWorld1(population);
+
+  return `${country} has ${population} million people, 
+which is about ${percentsgeOfUkraine}% of the world.`;
+}
+console.log(describePopulation("Ukraine", 2579));
