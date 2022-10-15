@@ -59,6 +59,7 @@ function fruitProcessor(appels, oranges) {
 
 console.log(fruitProcessor(2, 3));
 */
+/*
 const calcAge = function (birthYear) {
   return 2037 - birthYear;
 };
@@ -68,12 +69,32 @@ const yearsUntilRetirement = function (birthYear, firstName) {
   const retirement = 65 - age;
 
   if (retirement > 0) {
+    console.log(`${firstName} retirement in ${retirement}`);
     return retirement;
   } else {
+    console.log(`${firstName} already retirement`);
     return -1;
   }
 };
-console.log(
-  yearsUntilRetirement(1988, "Jack"),
-  yearsUntilRetirement(1950, "Bob")
-);
+
+yearsUntilRetirement(1988, "Jack");
+yearsUntilRetirement(1950, "Bob");
+console.log(yearsUntilRetirement(1950, "Bob"));
+*/
+
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+
+//Test 1
+const scoreDolphins = calcAverage(44, 23, 71);
+const scoreKoalas = calcAverage(65, 54, 49);
+
+const checkWinner = function (avgDolphins, avgKoalas) {
+  if (avgDolphins >= 2 * avgKoalas) {
+    console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas}.)`);
+  } else if (avgKoalas >= 2 * avgDolphins) {
+    console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins}.)`);
+  } else {
+    console.log("No one win!!!");
+  }
+};
+checkWinner(scoreDolphins, scoreKoalas);
