@@ -81,7 +81,7 @@ yearsUntilRetirement(1988, "Jack");
 yearsUntilRetirement(1950, "Bob");
 console.log(yearsUntilRetirement(1950, "Bob"));
 */
-/*
+
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 
 // //Test 1
@@ -100,4 +100,3 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   }
 };
 checkWinner(scoreDolphins, scoreKoalas);
-*/
