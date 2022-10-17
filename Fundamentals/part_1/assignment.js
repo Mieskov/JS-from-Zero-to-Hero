@@ -124,7 +124,7 @@ const percentsgeOfUkraine = percentageOfWorld3(1558);
 const percentsgeOfUSA = percentageOfWorld3(547);
 console.log(percentsgeOfUkraine, percentsgeOfUSA);
 console.log(percentageOfWorld3(457));
-*/
+*/ /*
 function percentageOfWorld1(population) {
   return (population / 7900) * 100;
 }
@@ -138,3 +138,23 @@ function describePopulation(country, population) {
 describePopulation("Ukraine", 2579);
 describePopulation("USA", 4587);
 describePopulation("Finland", 2358);
+*/
+
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(calcAverage(12, 54, 56));
+
+const scoreDolphins = calcAverage(145, 45, 85);
+const scoreKoalas = calcAverage(14, 25, 84);
+console.log(scoreDolphins, scoreKoalas);
+
+const checkWinner = function (avgDolphins, avgKoalas) {
+  if (scoreDolphins >= 2 * scoreKoalas) {
+    console.log(`Dolphins win (${scoreDolphins} vs. ${scoreKoalas}).`);
+  } else if (scoreKoalas >= 2 * scoreDolphins) {
+    console.log(`koalas win (${scoreKoalas} vs. ${scoreDolphins}).`);
+  } else {
+    console.log(`No one win!!!`);
+  }
+};
+
+checkWinner(scoreDolphins, scoreKoalas);
