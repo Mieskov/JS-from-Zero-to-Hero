@@ -139,7 +139,7 @@ describePopulation("Ukraine", 2579);
 describePopulation("USA", 4587);
 describePopulation("Finland", 2358);
 */
-/*
+
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 
 const scoreDolphins = calcAverage(145, 45, 85);
@@ -149,14 +149,13 @@ console.log(scoreDolphins, scoreKoalas);
 //
 
 const checkWinner = function (avgDolphins, avgKoalas) {
-  if (scoreDolphins >= 2 * scoreKoalas) {
-    console.log(`Dolphins win (${scoreDolphins} vs. ${scoreKoalas}).`);
-  } else if (scoreKoalas >= 2 * scoreDolphins) {
-    console.log(`koalas win (${scoreKoalas} vs. ${scoreDolphins}).`);
+  if (avgDolphins >= 2 * avgKoalas) {
+    console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas}).`);
+  } else if (avgKoalas >= 2 * avgDolphins) {
+    console.log(`koalas win (${avgKoalas} vs. ${avgDolphins}).`);
   } else {
     console.log(`No one win!!!`);
   }
 };
 
 checkWinner(scoreDolphins, scoreKoalas);
-*/
