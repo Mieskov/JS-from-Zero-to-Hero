@@ -139,7 +139,7 @@ describePopulation("Ukraine", 2579);
 describePopulation("USA", 4587);
 describePopulation("Finland", 2358);
 */
-
+/*
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 
 const scoreDolphins = calcAverage(145, 45, 85);
@@ -159,3 +159,18 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 };
 
 checkWinner(scoreDolphins, scoreKoalas);
+*/
+
+const populations = [42, 1551, 78, 38];
+console.log(populations.length === 4);
+
+const percentageOfWorld = function (populations) {
+  return (populations / 7900) * 100;
+};
+const percentages = [
+  percentageOfWorld(populations[0]),
+  percentageOfWorld(populations[1]),
+  percentageOfWorld(populations[2]),
+  percentageOfWorld(populations[3]),
+];
+console.log(percentages[1]);
