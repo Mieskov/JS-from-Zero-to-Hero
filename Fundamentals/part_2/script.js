@@ -81,6 +81,7 @@ yearsUntilRetirement(1988, "Jack");
 yearsUntilRetirement(1950, "Bob");
 console.log(yearsUntilRetirement(1950, "Bob"));
 */
+/*
 
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 
@@ -104,3 +105,21 @@ scoreDolphins = calcAverage(85, 54, 41);
 scoreKoalas = calcAverage(23, 34, 27);
 
 checkWinner(scoreDolphins, scoreKoalas);
+*/
+//ARRAYS
+
+const friend1 = "Piter";
+const friend2 = "Michael";
+const friend3 = "Steven";
+
+const friends = ["Michael", "Stiven", "Peter"];
+console.log(friends);
+
+const years = new Array(1991, 1984, 2008, 2020);
+
+console.log(friends[0]);
+console.log(friends.length);
+
+console.log(friends[friends.length - 1]);
+console.log(friends[friends.length - 2]);
+console.log(years[years.length - 2]);
