@@ -160,7 +160,7 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 
 checkWinner(scoreDolphins, scoreKoalas);
 */
-
+/*
 const populations = [42, 1551, 78, 38];
 console.log(populations.length === 4);
 
@@ -174,3 +174,20 @@ const percentages = [
   percentageOfWorld(populations[3]),
 ];
 console.log(percentages[1]);
+*/
+
+const neighbour = ["Poland", "Moldova", "Belarasha", "rashka"];
+neighbour.push("Utopia");
+console.log(neighbour);
+neighbour.pop();
+console.log(neighbour);
+if (!neighbour.includes("Germany")) {
+  console.log("Probably not a central European country :D");
+}
+
+neighbour[neighbour.indexOf("Belarasha")] = "Repablic Belarasha";
+/*
+console.log(neighbour.indexOf("Belarasha"));
+neighbour[2] = "Repablic Belarasha";*/
+
+console.log(neighbour);
