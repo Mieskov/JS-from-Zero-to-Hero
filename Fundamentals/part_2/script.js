@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; /*
 /*
 function logger() {
   console.log("My name is Jack");
@@ -145,6 +145,8 @@ jack[2] = 2037 - 1988;
 jack[4] = friends;
 console.log(jack);
 */
+
+/*
 const calcAge = function (birthYear) {
   return 2037 - birthYear;
 };
@@ -163,3 +165,40 @@ const ages = [
   calcAge(years[years.length - 1]),
 ];
 console.log(ages);
+*/
+const friends = ["Peter", "Jack", "Jay", "Kuki", "Mike"];
+//Add elements
+const newLength = friends.push("Jonas");
+console.log(friends);
+
+console.log(newLength);
+
+friends.unshift("Mickle");
+console.log(friends);
+
+//Remove elements
+
+friends.pop();
+const lastName = friends.pop();
+console.log(friends);
+console.log(lastName);
+
+friends.shift();
+const firstPlace = friends.shift();
+console.log(friends);
+console.log(firstPlace);
+
+console.log(friends.indexOf("Jay"));
+console.log(friends.indexOf("Bob"));
+friends.push(23);
+
+friends.unshift(32);
+console.log(friends);
+
+console.log(friends.includes("32"));
+console.log(friends.includes(32));
+console.log(friends.includes("Jack"));
+
+if (friends.includes("Jack")) {
+  console.log("Jack is my friend!");
+}
