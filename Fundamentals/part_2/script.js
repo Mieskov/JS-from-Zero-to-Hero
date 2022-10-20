@@ -227,3 +227,45 @@ console.log(tips);
 const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(total);
 */
+
+const jack = {
+  firstName: "Jack",
+  lastName: "Mieskove",
+  age: 2037 - 1988,
+  job: "coder",
+  friends: ["Peter", "Jay", "Lucy", "Bob"],
+};
+console.log(jack);
+console.log(jack.age);
+console.log(jack["lastName"]);
+
+const nameKey = "Name";
+
+console.log(jack["first" + nameKey]);
+console.log(jack["last" + nameKey]);
+
+/*const intresdedIn = prompt(
+  "What do you want to know about Jack? Choose between firstName, lastName,age, job, friends!!!"
+);
+
+if (jack[intresdedIn]) {
+  console.log(jack[intresdedIn]);
+} else {
+  console.log(
+    "Wrong request! Choose between firstName, lastName,age, job, friends!!!"
+  );
+}
+
+jack.location = "Ukraine";
+jack["wife"] = "Ruslana";
+console.log(jack);
+*/
+const jonas = {
+  firstName: "Jonas",
+  friends: ["Michael", "Peter", "Jay"],
+};
+
+console.log(
+  `${jonas.firstName} has ${friends.length}
+  }, and his best friend is called ${jonas[friends[0]]}`
+);
