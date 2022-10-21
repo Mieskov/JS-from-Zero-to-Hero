@@ -195,7 +195,11 @@ console.log(neighbour);
 const myCoutry = {
   country: "Ukraine",
   capital: " Kyiv",
-  language: "Ukrainian",
+  language: "ukrainian",
   population: 42,
   neighbour: ["Poland", "Moldova", "Belarasha", "rashka"],
 };
+
+console.log(
+  `${myCoutry.country} has ${myCoutry.population} million ${myCoutry.language}-speaking people, ${myCoutry.neighbour.length} neighbouring countries and a capital called ${myCoutry.capital}.`
+);
