@@ -278,12 +278,26 @@ const jack = {
   friends: ["Peter", "Jay", "Lucy", "Bob"],
   hasDriverLicense: true,
 
-  calcAgeCar: function () {
-    return 2037 - this.carAge;
-    // return 2037 - this.birthYear;
-  },
+  // calcAgeCar: function (birthYear) {
+  //   return 2037 - birthYear;
+  // },
+
+  // calcAgeCar: function () {
+  //   // console.log(this);
+  //   return 2037 - this.carAge;
+  // return 2037 - this.birthYear;
+
+  // calcAge: function () {
+  //   return 2037 - this.birthYear;
+  // },
   calcAge: function () {
-    return 2037 - this.birthYear;
+    this.age = 2037 - this.birthYear;
+    return this.age;
   },
 };
-console.log(jack.calcAge(), jack.calcAgeCar());
+
+console.log(jack.calcAge());
+console.log(jack.age);
+console.log(jack.age);
+console.log(jack.age);
+console.log(jack.age);
