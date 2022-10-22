@@ -227,7 +227,7 @@ console.log(tips);
 const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(total);
 */
-
+/*
 const jack = {
   firstName: "Jack",
   lastName: "Mieskove",
@@ -244,7 +244,7 @@ const nameKey = "Name";
 console.log(jack["first" + nameKey]);
 console.log(jack["last" + nameKey]);
 
-/*const intresdedIn = prompt(
+const intresdedIn = prompt(
   "What do you want to know about Jack? Choose between firstName, lastName,age, job, friends!!!"
 );
 
@@ -259,7 +259,7 @@ if (jack[intresdedIn]) {
 jack.location = "Ukraine";
 jack["wife"] = "Ruslana";
 console.log(jack);
-*/
+
 const jonas = {
   firstName: "Jonas",
   friends: ["Michael", "Peter", "Jay"],
@@ -267,4 +267,23 @@ const jonas = {
 
 console.log(
   `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}.`
-);
+);*/
+
+const jack = {
+  firstName: "Jack",
+  lastName: "Mieskove",
+  birthYear: 1988,
+  carAge: 2007,
+  job: "coder",
+  friends: ["Peter", "Jay", "Lucy", "Bob"],
+  hasDriverLicense: true,
+
+  calcAgeCar: function () {
+    return 2037 - this.carAge;
+    // return 2037 - this.birthYear;
+  },
+  calcAge: function () {
+    return 2037 - this.birthYear;
+  },
+};
+console.log(jack.calcAge(), jack.calcAgeCar());
