@@ -258,10 +258,7 @@ if (jack[intresdedIn]) {
 
 jack.location = "Ukraine";
 jack["wife"] = "Ruslana";
-console.log(jack);
-
-const jonas = {
-  firstName: "Jonas",
+console.log(jack) onas",
   friends: ["Michael", "Peter", "Jay"],
 };
 
@@ -301,3 +298,7 @@ console.log(jack.age);
 console.log(jack.age);
 console.log(jack.age);
 console.log(jack.age);
+
+console.log(
+  `${jack.firstName} is a ${jack.age}-years old ${jack.job}, and he has ${Boolean} driv`
+);
