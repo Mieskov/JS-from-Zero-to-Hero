@@ -273,7 +273,7 @@ const jack = {
   carAge: 2007,
   job: "coder",
   friends: ["Peter", "Jay", "Lucy", "Bob"],
-  hasDriverLicense: true,
+  hasDriverLicense: false,
 
   // calcAgeCar: function (birthYear) {
   //   return 2037 - birthYear;
@@ -304,4 +304,6 @@ console.log(jack.age);
 console.log(jack.age);
 console.log(jack.age);
 console.log(jack.age);
+console.log(jack.getSummery());
+jack.hasDriverLicense = true;
 console.log(jack.getSummery());
