@@ -291,6 +291,12 @@ const jack = {
     this.age = 2037 - this.birthYear;
     return this.age;
   },
+
+  getSummery: function () {
+    return `${this.firstName} is a ${this.calcAge()}-years old ${
+      this.job
+    }, and he has ${jack.hasDriverLicense ? "a" : "no"} driver's license.`;
+  },
 };
 
 console.log(jack.calcAge());
@@ -298,7 +304,4 @@ console.log(jack.age);
 console.log(jack.age);
 console.log(jack.age);
 console.log(jack.age);
-
-console.log(
-  `${jack.firstName} is a ${jack.age}-years old ${jack.job}, and he has ${Boolean} driv`
-);
+console.log(jack.getSummery());

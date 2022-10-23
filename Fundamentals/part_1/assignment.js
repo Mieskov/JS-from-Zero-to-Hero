@@ -198,8 +198,18 @@ const myCoutry = {
   language: "ukrainian",
   population: 42,
   neighbour: ["Poland", "Moldova", "Belarasha", "rashka"],
+  discribe: function () {
+    console.log(
+      `${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbour.length} neighbouring countries and a capital called ${this.capital}.`
+    );
+  },
 };
 
 console.log(
   `${myCoutry.country} has ${myCoutry.population} million ${myCoutry.language}-speaking people, ${myCoutry.neighbour.length} neighbouring countries and a capital called ${myCoutry.capital}.`
 );
+myCoutry.discribe();
+
+const model = true;
+
+console.log((BMW = model ? "Ok" : "bad"));
