@@ -265,7 +265,7 @@ console.log(jack) onas",
 console.log(
   `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}.`
 );*/
-
+/*
 const jack = {
   firstName: "Jack",
   lastName: "Mieskove",
@@ -307,3 +307,19 @@ console.log(jack.age);
 console.log(jack.getSummery());
 jack.hasDriverLicense = true;
 console.log(jack.getSummery());
+*/
+
+// Challenge #3
+const person1 = {
+  firstName: "Mark",
+  lastName: "Miller",
+  mass: 78,
+  height: 1.69,
+};
+
+const persone2 = {
+  firstName: "John",
+  lastName: "Smith",
+  mass: 92,
+  height: 1.95,
+};
