@@ -191,7 +191,7 @@ neighbour[2] = "Repablic Belarasha";
 
 console.log(neighbour);
 */
-
+/*
 const myCoutry = {
   country: "Ukraine",
   capital: " Kyiv",
@@ -213,3 +213,8 @@ myCoutry.discribe();
 const model = true;
 
 console.log((BMW = model ? "Ok" : "bad"));
+*/
+
+for (let voter = 1; voter <= 50; voter++) {
+  console.log(`Voter number ${voter} is currently voting.`);
+}

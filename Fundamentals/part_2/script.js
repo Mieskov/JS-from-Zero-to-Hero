@@ -308,7 +308,7 @@ console.log(jack.getSummery());
 jack.hasDriverLicense = true;
 console.log(jack.getSummery());
 */
-
+/*
 // Challenge #3
 const Marc = {
   firstName: "Mark",
@@ -342,4 +342,9 @@ if (Marc.BMI > John.BMI) {
   console.log(
     `${John.firstName} ${John.lastName} BMI (${John.BMI}) is higher than ${Marc.firstName} ${Marc.lastName} BMI (${Marc.BMI}) .`
   );
+}*/
+
+// LOOP
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weight repetition ${rep}! `);
 }
