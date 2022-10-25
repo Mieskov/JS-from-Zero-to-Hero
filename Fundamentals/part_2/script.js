@@ -310,16 +310,24 @@ console.log(jack.getSummery());
 */
 
 // Challenge #3
-const person1 = {
+const Marc = {
   firstName: "Mark",
   lastName: "Miller",
   mass: 78,
   height: 1.69,
+  calcBMI: function () {
+    this.BMI = this.mass / (this.height * this.height);
+    return this.BMI;
+  },
 };
 
-const persone2 = {
+const John = {
   firstName: "John",
   lastName: "Smith",
   mass: 92,
   height: 1.95,
+  calcBMI: function () {
+    this.BMI = this.mass / (this.height * this.height);
+    return this.BMI;
+  },
 };
