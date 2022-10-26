@@ -347,7 +347,7 @@ if (Marc.BMI > John.BMI) {
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weight repetition ${rep}! `);
 }*/
-
+/*
 const jack = [
   "Jack",
   "Mieskove",
@@ -374,3 +374,4 @@ for (let i = 0; i < years.length; i++) {
   ages.push(2037 - years[i]);
 }
 console.log(ages);
+*/
