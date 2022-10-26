@@ -166,7 +166,6 @@ const ages = [
 ];
 console.log(ages);
 */
-
 /*
 const friends = ["Peter", "Jack", "Jay", "Kuki", "Mike"];
 //Add elements
@@ -343,8 +342,35 @@ if (Marc.BMI > John.BMI) {
     `${John.firstName} ${John.lastName} BMI (${John.BMI}) is higher than ${Marc.firstName} ${Marc.lastName} BMI (${Marc.BMI}) .`
   );
 }*/
-
+/*
 // LOOP
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weight repetition ${rep}! `);
+}*/
+
+const jack = [
+  "Jack",
+  "Mieskove",
+  2037 - 1988,
+  "coder",
+  ["Peter", "Jay", "Lucy", "Bob"],
+  false,
+];
+
+const types = [];
+
+for (let i = 0; i < jack.length; i++) {
+  console.log(jack[i], typeof jack[i]);
+
+  //Filling types array
+  //types[i] = typeof jack[i];
+  types.push(typeof jack[i]);
 }
+console.log(types);
+
+const years = [1991, 2007, 1965, 2020];
+const ages = [];
+for (let i = 0; i < years.length; i++) {
+  ages.push(2037 - years[i]);
+}
+console.log(ages);
