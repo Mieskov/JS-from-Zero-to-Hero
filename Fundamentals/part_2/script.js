@@ -375,3 +375,26 @@ for (let i = 0; i < years.length; i++) {
 }
 console.log(ages);
 */
+
+const jack = [
+  "Jack",
+  "Mieskove",
+  2037 - 1988,
+  "coder",
+  ["Peter", "Jay", "Lucy", "Bob"],
+  false,
+];
+
+console.log(jack.length, jack);
+console.log(`-------Only String-------`);
+for (let i = 0; i < jack.length; i++) {
+  if (typeof jack[i] !== "string") continue;
+
+  console.log(jack[i]);
+}
+console.log("-------Break after Number------");
+for (let i = 0; i < jack.length; i++) {
+  if (typeof jack[i] === "number") break;
+
+  console.log(jack[i]);
+}
