@@ -375,7 +375,7 @@ for (let i = 0; i < years.length; i++) {
 }
 console.log(ages);
 */
-
+/*
 const jack = [
   "Jack",
   "Mieskove",
@@ -401,4 +401,14 @@ for (let i = 0; i < jack.length; i++) {
 console.log(`------ Reverse------`);
 for (let i = jack.length - 1; i >= 0; i--) {
   console.log(jack[i]);
+}
+*/
+
+const exersice = 3;
+const rep = 5;
+for (let exersice = 1; exersice <= 3; exersice++) {
+  console.log(`------Exersice number ${exersice}------`);
+  for (let rep = 1; rep <= 5; rep++) {
+    console.log(`---Repetition number ${rep}---`);
+  }
 }
