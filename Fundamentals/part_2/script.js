@@ -398,3 +398,7 @@ for (let i = 0; i < jack.length; i++) {
 
   console.log(jack[i]);
 }
+console.log(`------ Reverse------`);
+for (let i = jack.length - 1; i >= 0; i--) {
+  console.log(jack[i]);
+}
