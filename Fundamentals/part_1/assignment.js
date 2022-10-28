@@ -224,7 +224,7 @@ const percentageOfWorld2 = function (populations) {
 const populations = [42, 1551, 78, 38];
 const percentages2 = [];
 for (let i = 0; i < populations.length; i++) {
-  const perc = percentageOfWorld(populations[i]);
+  const perc = percentageOfWorld2(populations[i]);
   percentages2.push(perc);
 }
 console.log(percentages2);
@@ -240,8 +240,14 @@ const percentages = [
 ];
 console.log(percentages[1]);
 
-const istOfNeighbours = [
+const listOfNeighbours = [
   ["Canada", "Mexico"],
   ["Spain"],
   ["Norway", "Sweden", "Russia"],
 ];
+
+for (let i = 0; i < listOfNeighbours.length; i++) {
+  for (let y = 0; y < listOfNeighbours[i].length; y++) {
+    console.log(`Neighbor: ${listOfNeighbours[i][y]}`);
+  }
+}
