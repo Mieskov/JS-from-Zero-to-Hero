@@ -239,3 +239,9 @@ const percentages = [
   percentageOfWorld(populations[3]),
 ];
 console.log(percentages[1]);
+
+const istOfNeighbours = [
+  ["Canada", "Mexico"],
+  ["Spain"],
+  ["Norway", "Sweden", "Russia"],
+];
