@@ -215,6 +215,27 @@ const model = true;
 console.log((BMW = model ? "Ok" : "bad"));
 */
 
-for (let voter = 1; voter <= 50; voter++) {
-  console.log(`Voter number ${voter} is currently voting.`);
+// for (let voter = 1; voter <= 50; voter++) {
+//   console.log(`Voter number ${voter} is currently voting.`);
+// }
+const percentageOfWorld2 = function (populations) {
+  return (populations / 7900) * 100;
+};
+const populations = [42, 1551, 78, 38];
+const percentages2 = [];
+for (let i = 0; i < populations.length; i++) {
+  const perc = percentageOfWorld(populations[i]);
+  percentages2.push(perc);
 }
+console.log(percentages2);
+
+const percentageOfWorld = function (populations) {
+  return (populations / 7900) * 100;
+};
+const percentages = [
+  percentageOfWorld(populations[0]),
+  percentageOfWorld(populations[1]),
+  percentageOfWorld(populations[2]),
+  percentageOfWorld(populations[3]),
+];
+console.log(percentages[1]);
