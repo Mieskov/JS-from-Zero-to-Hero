@@ -375,7 +375,7 @@ for (let i = 0; i < years.length; i++) {
 }
 console.log(ages);
 */
-
+/*
 const jack = [
   "Jack",
   "Mieskove",
@@ -410,4 +410,27 @@ for (let exersice = 1; exersice <= 3; exersice++) {
   for (let rep = 1; rep <= 5; rep++) {
     console.log(`---Repetition number ${rep}---`);
   }
+}*/
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+};
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+for (let i = 0; i < bills.length; i++) {
+  const tip = calcTip(bills[i]);
+  tips.push(tip);
+  totals.push(tips[i] + bills[i]);
 }
+console.log(totals);
+const calcAverage = function () {
+  let sum = 0;
+  for (let i = 0; i < totals.length; i++) {
+    sum += totals[i];
+  }
+  const aver = sum / totals.length;
+  console.log(sum);
+  console.log(aver);
+};
+calcAverage();
