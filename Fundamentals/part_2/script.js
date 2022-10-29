@@ -424,13 +424,12 @@ for (let i = 0; i < bills.length; i++) {
   totals.push(tips[i] + bills[i]);
 }
 console.log(totals);
-const calcAverage = function () {
+const calcAverage = function (arr) {
   let sum = 0;
-  for (let i = 0; i < totals.length; i++) {
-    sum += totals[i];
+  for (let i = 0; i < arr.length; i++) {
+    //sum += totals[i];
+    sum = sum + arr[i];
   }
-  const aver = sum / totals.length;
-  console.log(sum);
-  console.log(aver);
+  return sum / arr.length;
 };
-calcAverage();
+console.log(calcAverage(totals));
