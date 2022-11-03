@@ -37,8 +37,8 @@ if (bmiMark > bmiJohn) {
 
 //Bonus 1:
 
-const scoreDolphins = (97 + 112 + 101) / 3;
-const scoreKoalas = (109 + 95 + 106) / 3;
+const scoreDolphins = (97 + 112 + 11) / 3;
+const scoreKoalas = (109 + 95 + 10) / 3;
 console.log(scoreDolphins, scoreKoalas);
 
 if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
@@ -46,11 +46,13 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else if (scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
   console.log(`Koalas win wiht ${scoreKoalas} points 🏆!!!`);
 } else if (
-  scoreDolphins >= scoreKoalas &&
+  scoreDolphins === scoreKoalas &&
   scoreDolphins >= 100 &&
   scoreKoalas >= 100
 ) {
   console.log(
     `Dolphins (${scoreDolphins}) and Koalas (${scoreKoalas}) has a draw!!!😈 `
   );
+} else {
+  console.log("No one wins the Trophy 🏆🤦‍♂️");
 }
