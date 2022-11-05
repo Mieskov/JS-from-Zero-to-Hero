@@ -67,7 +67,7 @@ console.log(
 */
 
 //PART 2: Challenge #1
-
+/*
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 
 const scoreDolphins = calcAverage(85, 54, 41);
@@ -84,3 +84,23 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   }
 };
 checkWinner(scoreDolphins, scoreKoalas);
+*/
+/*
+//challenge #2
+const bill = [125, 555, 44];
+
+const calcTip = function (bill) {
+  return (tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2);
+};
+console.log(bill);
+const tips = [calcTip(bill[0]), calcTip(bill[1]), calcTip(bill[2])];
+console.log(tips);
+const total = [
+  bill[0] + calcTip(bill[0]),
+  bill[1] + calcTip(bill[1]),
+  bill[2] + calcTip(bill[2]),
+];
+console.log(total);
+*/
+
+//Challenge #3
