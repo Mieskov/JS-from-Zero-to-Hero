@@ -29,7 +29,7 @@ if (bmiMark > bmiJohn) {
   console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark})!`);
 }
 */
-
+/*
 ///Challenge 3:
 
 // const scoreDolphins = (96 + 108 + 89) / 3;
@@ -56,3 +56,27 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else {
   console.log("No one wins the Trophy 🏆🤦‍♂️");
 }
+*/
+/*
+//Challenge #4
+const bill = 430;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+);
+*/
+
+//PART 2: Challenge #1
+
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+
+const scoreDolphins = calcAverage(44, 23, 71);
+const scoreKoalas = calcAverage(65, 54, 49);
+console.log(scoreDolphins, scoreKoalas);
+
+const checkWinner = function (avgDolphins, avgKoalas) {
+  const Dolphinswin = avgDolphins ** 2;
+  const KoalasWin = avgKoalas ** 2;
+};
+
+console.log(checkWinner(scoreDolphins, scoreKoalas));
