@@ -103,7 +103,7 @@ const total = [
 console.log(total);
 */
 //Challenge #3
-
+/*
 const Mark = {
   fullName: "Mark Miller",
   mass: 78,
@@ -124,3 +124,24 @@ const John = {
 console.log(
   `Johas BMI (${John.calcBMI()}) is higher than Mark (${Mark.calcBMI()}). `
 );
+*/
+const bill = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const total = [];
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+};
+for (let i = 0; i < bill.length; i++) {
+  tips.push(calcTip(bill[i]));
+  total.push(bill[i] + tips[i]);
+}
+
+const calcAverage = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+    average = sum / arr.length;
+  }
+  console.log(sum, average);
+};
+calcAverage(total);
