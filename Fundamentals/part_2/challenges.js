@@ -90,7 +90,7 @@ checkWinner(scoreDolphins, scoreKoalas);
 const bill = [125, 555, 44];
 
 const calcTip = function (bill) {
-  return (tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2);
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 };
 console.log(bill);
 const tips = [calcTip(bill[0]), calcTip(bill[1]), calcTip(bill[2])];
@@ -102,5 +102,23 @@ const total = [
 ];
 console.log(total);
 */
-
 //Challenge #3
+
+const Mark = {
+  fullName: "Mark Miller",
+  mass: 78,
+  height: 1.69,
+  calcBMI: function () {
+    return (this.mass / this.height) * 2;
+  },
+};
+const John = {
+  fullName: "John Smith",
+  mass: 92,
+  height: 1.95,
+  calcBMI: function () {
+    return (this.mass / this.height) * 2;
+  },
+};
+
+console.log();
