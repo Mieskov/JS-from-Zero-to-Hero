@@ -121,4 +121,6 @@ const John = {
   },
 };
 
-console.log();
+console.log(
+  `Johas BMI (${John.calcBMI()}) is higher than Mark (${Mark.calcBMI()}). `
+);
