@@ -135,13 +135,13 @@ for (let i = 0; i < bill.length; i++) {
   tips.push(calcTip(bill[i]));
   total.push(bill[i] + tips[i]);
 }
+console.log(bill, tips, total);
 
 const calcAverage = function (arr) {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
-    average = sum / arr.length;
   }
-  console.log(sum, average);
+  return sum / arr.length;
 };
-calcAverage(tips);
+console.log(calcAverage(tips));
