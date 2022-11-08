@@ -144,4 +144,4 @@ const calcAverage = function (arr) {
   }
   console.log(sum, average);
 };
-calcAverage(total);
+calcAverage(tips);
