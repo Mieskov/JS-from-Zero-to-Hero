@@ -435,4 +435,3 @@ const calcAverage = function (arr) {
 };
 console.log(calcAverage(totals));
 */
-console.log();
